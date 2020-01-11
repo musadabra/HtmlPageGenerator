@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-Jul-2018, 00:40:03
+    Author     : MUSA DABRA
+*/
+   .tools-container{
+                width: 70px;
+                background: #67b168;
+                color: #fff;
+            }
+            
+            .media-content{
+                width:600px;
+                height: 600px;
+                margin-top: 30px;
+                position: relative;
+                border: 1px solid #45a29e;
+                box-shadow: 1px 1px 4px rgba(0,0,0,.25);
+                display: none;
+            }
+            
+            .media-content .media-header,
+            .media-content .choosefile-container, 
+            .media-content .media-images,
+            .media-content .media-footer{
+                width: 100%;
+              
+            }
+            
+            .media-content .media-header{
+                height: 50px;
+                background: #46a29f;
+            }
+            
+            .media-header h3{
+                font-size: 14px;
+                margin-left: 20px;
+                color: #fff;
+                float: left;
+            }
+            
+           .fa-close{
+                margin-right: 10px;
+                float: right;
+                margin-top: 10px;
+                font-size: 14px;
+                color: #fff;
+            }
+            
+            .media-content .choosefile-container{
+                height: 200px;
+                background: #f8f7f7;
+                text-align: center;
+            }
+            
+            .choosefile-container h1{
+                margin-top: 0px;
+                padding-top: 30px;
+                font-size: 24px;
+                width: 250px;
+                color:#c5c6c7;
+                font-weight: bolder;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .choosefile-container hr{
+               margin-bottom: -10px;
+               width: 50px;
+               border-top: 3px solid #66fcf1;
+            }
+            
+            
+            .choosefile-container p{
+                font-size: 14px;
+                width: 20px;
+                height: 15px;
+                background: #f8f7f7;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #file-2{
+                display: none;
+                border: 1px solid #66fcf1;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            
+            .choosefile-container label{
+                font-size: 10px;
+                margin-top: 10px;
+                padding: 10px;
+                border: 1px solid #66fcf1 !important;
+            }
+            
+            .media-images{
+              
+                width: 100%;
+                z-index: 0;
+            }
+            
+            .media-images .media-image{
+                width:33.33%;
+                height: 200px;
+                float: left;
+                position: relative;
+                background: #666;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            
+            .media-footer{
+                background: #fff;
+                width: 100%;
+                height: 45px;
+                box-shadow: 3px 0px 5px rgba(0,0,0,.25);
+                position: absolute;
+                bottom: -25px;
+                z-index: 3;
+            }
+            
+            #media-upload{
+                margin-left: auto;
+                margin-right: auto;          
+            }
+            
+            .media-image:hover{
+                transition: border .2s;
+                border: 8px solid #45a29e;
+            }
+            
+            .media-image-delete-icon{
+                position: absolute;
+                display: none;
+                cursor: pointer;
+                color: #666;
+                right: 0;
+                padding: 5px;
+                border: 4px solid #45a29e;
+                transition: 0.3s;
+            }
+            
+            .media-image-delete-icon:hover{
+                 transition: font-size 0.3s;
+                 font-size: 18px;
+            }
+            
+            .media-image-delete-icon-show{
+                display: block;
+            }
+            
+            .show-up{
+                display: block;       
+            }
